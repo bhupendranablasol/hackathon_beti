@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="./modal.css">
+    <script defer src="./script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>B.E.T.I</title>
+</head>
+
+<body>
+    <!-- <div class="header">
+        <div class="header-logo">
+            <img src="./beti.png" class="header-image" alt="Project Logo">
+        </div>
+        <div class="header-nav">
+            <a href="#about" class="header-nav-link">
+                ABOUT
+            </a>
+            <a href="#usage" class="header-nav-link">
+                USAGE
+            </a>
+            <a href="#footer" class="header-nav-link-special">
+                CREDITS
+            </a>
+        </div>
+        <div class="header-nav-mobile">
+            <a href="#about" class="header-nav-link">
+                ABOUT
+            </a>
+            <a href="#footer" class="header-nav-link-special">
+                CREDITS
+            </a>
+        </div>
+    </div> -->
+    <div class="body">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <!-- <label class="logo">Angry Nerds </label> -->
+            <img src="nerds.jpg" style="width: 100px;margin-left:50px;margin-top: 15px;border-radius: 5px;" alt="">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#TechStack">TechStack</a></li>
+                <li><a href="#whyus">Why Us?</a></li>
+                <li><a href="#start">Get Started</a></li>
+            </ul>
+        </nav>
+        <img style="width: 100%;" src="slider.png" alt="">
+
+    </div>
+    <div class="about" id="about">
+        <div class="heading-div">
+            <div class="universal-heading">ABOUT</div>
+            <div class="universal-sub-heading">
+                B.E.T.I. - BINARY EXTRACTION and TRANSFORMATION INTERFACE
+            </div>
+        </div>
+        <div class="mew-div">
+            <div class="about-pre" style="padding-top: 62px;">
+                The Batch Extraction and Text Interpreter (B.E.T.I.) is an advanced system designed to streamline
+                the process of
+                extracting and structuring data from PDF documents. B.E.T.I. leverages cutting-edge technologies to
+                transform
+                unstructured text within PDFs into well-organized, structured data, enabling easier data
+                manipulation and analysis.. This project was made using, <strong>Slim, Smalot, PHP, Python,
+                    HTML/CSS, Sweat, Determination and Hardwork </strong>
+                B.E.T.I. revolutionizes the way businesses and organizations handle PDF documents, providing a
+                reliable and efficient
+                solution for transforming unstructured text into valuable, structured data.
+            </div>
+            <div>
+                <img style="width: 309px;" src="datacycle.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div class="about" id="whyus">
+        <div class="heading-div">
+            <div class="universal-heading">Why Choose Us</div>
+            <div class="universal-sub-heading">
+                There are many other options already , why choose us ?
+            </div>
+        </div>
+        <div style="display: flex;">
+            <div class="mew-div" style="flex-direction: column;">
+                <div class="about-pre" style="padding-top:5px;">
+                    <h2 style="width: max-content;"><strong>B.E.T.I</strong> provides you all off the features on just
+                        single place.</h2>
+                </div>
+                <h4 class="pill" style="
+            font-size: x-large;margin-top: 5px;
+        ">From our web application you can achieve</h4>
+                <div style="display: flex;margin-top: 15px;">
+                    <img src="arrow.png" style="width: 37px;" alt="">&nbsp;&nbsp;&nbsp;
+                    <p style="font-size: 25px;">Instant structured document from web panel in just 2 steps.</p>
+                </div>
+                <div style="display: flex;margin-top: 15px;">
+                    <img src="arrow.png" style="width: 37px;height: 35px;" alt="">&nbsp;&nbsp;&nbsp;
+                    <p style="font-size: 25px;">Dont want to use our web panel ? No worries you can use our
+                        <strong>API</strong> sets provided to
+                        integrate with your
+                        existing system either its CRM, ERP , CMS or any other platform . We provide multiplatform
+                        support.
+                    </p>
+                </div>
+
+            </div>
+            <img src="why.gif" alt="">
+        </div>
+
+    </div>
+
+    <div class="about" id="TechStack">
+        <div class="heading-div">
+            <div class="universal-heading">Techstack</div>
+            <div class="universal-sub-heading">
+                Want to know science behind it ? 🤔
+            </div>
+        </div>
+        <div class="fetch-info" style="
+        padding: 15px;
+        font-size: 13px;
+    ">
+            <p>This webapplication will get your data in form of PDF and use the <strong>NER modal </strong>.</p>
+            <br>
+            <h4 class="pill">NER Modal </h4>
+            <br>
+            <p> Named entity recognition (NER) is a natural language processing (NLP) technique that identifies and
+                categorizes specific entities, or named entities, in unstructured text. NER can help machines extract
+                valuable data from large amounts of textual information.</p>
+
+            <p>We have our pre trained modal that was developed using python consuming <strong>spacy</strong></p>
+
+            <br>
+            <br>
+            <h4 class="pill">Spacy Modal</h4>
+            <br>
+            <p>spaCy is a free, open-source Python library that provides advanced capabilities to conduct natural
+                language processing (NLP) on large volumes of text at high speed. It helps you build models and
+                production applications that can underpin document analysis, chatbot capabilities, and all other forms
+                of text analysis.</p>
+
+
+
+        </div>
+        <div class="usage-heading" style="text-align: center;">Lets Do Some Magic</div>
+        <p class="about-pre usage-paragraph" style="text-align: center;">
+            Project only works on PDF files. Use the file uploading feature to upload your PDF.
+        </p>
+        <div class="card" style="text-align: center;">
+            <table style="width: 100%;">
+                <tr>
+                    <td>
+                        <form id="uploadForm" enctype="multipart/form-data">
+                            <div class="inputFileContainer">
+                                <div class="drag-drop-area" id="drag-drop-area">
+                                    <span class="remove-icon" id="remove-icon">&times;</span>
+                                    <img style="width: 200px;" src="uploadpdf.png" alt="">
+
+                                    <p>Drag and drop a file here or click to select a file</p>
+
+                                </div>
+                                <input required type="file" id="pdfFile" accept="application/pdf" name="file" hidden>
+                                <br>
+                                <br>
+                                <!-- <label for="pdfFile" class="custom-file-upload">Upload PDF</label> -->
+                                <br>
+                                <br>
+                                <label for="spacyentities" style="font-size: 20px;">Choose Entities you want to
+                                    extract:</label>
+                                <br>
+                                <select name="spacyentities" required id="spacyentities" style="width: 400px;" multiple>
+                                    <option value="CARDINAL">Cardinal</option>
+                                    <option value="DATE">Date</option>
+                                    <option value="EVENT">Event</option>
+                                    <option value="FAC">Facility</option>
+                                    <option value="GPE">Geopolitical Entity</option>
+                                    <option value="LANGUAGE">Language</option>
+                                    <option value="LAW">Law</option>
+                                    <option value="LOC">Location</option>
+                                    <option value="MONEY">Money</option>
+                                    <option value="NORP">Nationalities, Religious, or Political Groups</option>
+                                    <option value="ORDINAL">Ordinal</option>
+                                    <option value="ORG">Organization</option>
+                                    <option value="PERCENT">Percent</option>
+                                    <option value="PERSON">Person</option>
+                                    <option value="PRODUCT">Product</option>
+                                    <option value="QUANTITY">Quantity</option>
+                                    <option value="TIME">Time</option>
+                                    <option value="WORK_OF_ART">Work of Art</option>
+                                </select>
+                                <br>
+                                <br>
+                                <input type="button" id="uploadButton" class="custom-file-upload" value="Submit File">
+                            </div>
+                        </form>
+                    </td>
+                    <td>
+                        <h1>Uploaded File</h1>
+                        <br>
+                        <br>
+                        <iframe style="height: 400px;" id="pdfViewer"></iframe>
+                        <div class="processing" style="display: none;">
+                            <img src="processing.gif"
+                                style="width: 300px;margin: auto;border-radius: 50%;height: 300px;object-fit: cover;"
+                                alt="">
+                            <h3 id="typing-text">Processing your data...</h3>
+                        </div>
+
+                    </td>
+                </tr>
+            </table>
+            <div class="extractedData" style="
+                        text-align: center;
+                        background: white;
+                        padding: 10px;
+                        border-radius: 11px;
+                    " id="data-container">
+
+
+            </div>
+        </div>
+
+    </div>
+    <div class="footer" id="footer">
+        <div class="footer-nav">
+            <a class="footer-link-1 footer-link" href="#" onclick="clickPreetam()">
+                <img src="./beti.png" class="preetam-logo" alt="Preetam Logo">
+            </a>
+            <a class="footer-link-2 footer-link" href="#" onclick="clickPokemon()">
+                <img src="./nerds.jpg" class="poki-logo" alt="Pokemon Logo">
+            </a>
+        </div>
+        <div class="credits-1">Angry Nerds</div>
+        <div class="credits-2">
+            This project was made by Angry Nerds and is not to be replicated.
+        </div>
+    </div>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content" style="padding: 0;">
+            <span class="close" style="color: black;margin-right: 10px;">&times;</span>
+            <img src="welcome.png" style="width: 100%;border-radius: 10px;" alt="">
+        </div>
+    </div>
+    <!-- <button id="openModalBtn" class="btn">Open Modal</button> -->
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("openModalBtn");
+        var span = document.getElementsByClassName("close")[0];
+
+
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    });
+
+
+    $(document).ready(function () {
+
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("openModalBtn");
+        var span = document.getElementsByClassName("close")[0];
+
+        modal.style.display = "block";
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+
+        function createCard(title, items) {
+            const card = document.createElement('div');
+            card.classList.add('card');
+
+            const cardTitle = document.createElement('h2');
+            cardTitle.textContent = title;
+            card.appendChild(cardTitle);
+
+            const list = document.createElement('ul');
+            items.forEach(item => {
+                const listItem = document.createElement('li');
+                listItem.textContent = item;
+                list.appendChild(listItem);
+            });
+
+            card.appendChild(list);
+            return card;
+        }
+
+        $('#uploadForm').on('submit', function (e) {
+            e.preventDefault();
+            var formData = new FormData();
+            console.log($('#pdfFile'));
+            var file = $('#pdfFile')[0].files[0];
+            entities = $("#spacyentities").val();
+            formData.append('file', file);
+            formData.append('entities', entities);
+            $(".extractedData").empty();
+            $(".extractedData").hide();
+            $("iframe").hide();
+            $(".processing").show();
+            $(".processing").show();
+            $.ajax({
+                url: 'http://localhost:3000/extract', // Replace with your API endpoint
+                type: 'POST',
+                data: formData,
+                processData: false,
+                contentType: false,
+                dataType: 'json',
+                success: function (response) {
+                    // $(".emailList").empty();
+                    // $(".nameList").empty();
+                    // $(".phoneList").empty();
+                    // $(".ssnList").empty();
+                    // $.map(response.emails, function (email) {
+                    //     $(".emailList").append("<li>" + email + "</li>");
+                    // })
+                    // $.map(response.names, function (name) {
+                    //     $(".nameList").append("<li>" + name + "</li>");
+                    // })
+                    // $.map(response.phone, function (phon) {
+                    //     $(".phoneList").append("<li>" + phon + "</li>");
+                    // })
+                    // $.map(response.ssns, function (ssn) {
+                    //     $(".ssnList").append("<li>" + ssn + "</li>");
+                    // })
+                    $(".processing").hide();
+
+                    $(".extractedData").empty();
+                    $(".extractedData").show();
+
+                    if (response.status == 'success') {
+                        $('#pdfViewer').attr('src', '../apis/' + response.filename);
+                        var foundContactData = false;
+                        // if (response.emails.length > 0) {
+                        //     foundContactData = true;
+                        //     $(".extractedData").append('<h2> Contact Details Found </h2>');
+                        //     $(".extractedData").append('<p style="font-size: 20px;text-align: left;margin-left: 100px;margin-top: 22px;margin-bottom: 66px;"> <strong>Emails:</strong>' + response.emails.join(", ") + ' </h2>');
+                        // }
+
+                        // if (response.phones.length > 0) {
+
+                        //     if (foundContactData == false) {
+                        //         $(".extractedData").append('<h2> Contact Details Found </h2>');
+                        //         foundContactData = true;
+                        //     }
+                        //     $(".extractedData").append('<p style="font-size: 20px;text-align: left;margin-left: 100px;margin-top: 22px;margin-bottom: 66px;"> <strong>Phones:</strong>' + response.phones.join(", ") + ' </h2>');
+                        // }
+                        // if (response.ssns.length > 0) {
+
+                        //     if (foundContactData == false) {
+                        //         $(".extractedData").append('<h2> Contact Details Found </h2>');
+                        //         foundContactData = true;
+                        //     }
+                        //     $(".extractedData").append('<p style="font-size: 20px;text-align: left;margin-left: 100px;margin-top: 22px;margin-bottom: 66px;"> <strong>SSN:</strong>' + response.ssns.join(", ") + ' </h2>');
+                        // }
+
+
+
+
+                        $(".extractedData").append("<a href='../apis/extracted_entities.csv' class='custom-file-upload' style='margin:auto'>Click here to download CSV of extracted entities.</a>");
+
+                        $("iframe").show();
+
+                    }
+                    else {
+                        $(".extractedData").append("<h4 style='color:red'>No Data found in the given document</h4>");
+                    }
+
+
+                    // $('#uploadForm').hide();
+
+                    // const dataContainer = document.getElementById('data-container');
+
+                    // const namesCard = createCard('Names Found In Doc', response.names);
+                    // const emailsCard = createCard('Emails Found In Doc', response.emails);
+                    // const phonesCard = createCard('Phones Found In Doc', response.phone);
+                    // const ssnsCard = createCard('SSNs Found In Doc', response.ssns);
+
+                    // dataContainer.appendChild(namesCard);
+                    // dataContainer.appendChild(emailsCard);
+                    // dataContainer.appendChild(phonesCard);
+                    // dataContainer.appendChild(ssnsCard);
+
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    $('#result').html('<p>Failed to upload file.</p>');
+                    console.error(textStatus, errorThrown);
+                }
+            });
+        });
+    });
+</script>
+
+</html>
